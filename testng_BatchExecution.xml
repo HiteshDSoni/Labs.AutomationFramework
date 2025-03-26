@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite_19Mar2025_Batch_Regression">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="productTests.AddProductToCartTestASSERT"/>
+      <class name="productTests.AddLowestPriceProductTestASSERT"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestingSuite_19Mar2025_Regression -->
