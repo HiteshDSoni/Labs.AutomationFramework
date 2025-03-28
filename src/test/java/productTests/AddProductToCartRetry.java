@@ -44,7 +44,7 @@ public class AddProductToCartRetry extends BaseClass {
 		Assert.assertEquals(productInCart, productAdded);
 		Assert.assertTrue(productInCart.equals(productAdded));
 		System.out.println("Assertion --- done");
-
+		System.out.println("Assertion --- statements done");
 		
 	}
 
