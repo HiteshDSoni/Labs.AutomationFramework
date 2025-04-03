@@ -12,7 +12,7 @@ import java.sql.Statement;
  * 
  * Created on: April 3, 2025
  * 
- * @author Hitesh
+ * @author Hitesh Soni
  * 
  */
 public class MySQLJDBCExample {
