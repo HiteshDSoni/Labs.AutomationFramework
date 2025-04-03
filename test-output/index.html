@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\asmit\AppData\Local\Temp\testng-eclipse-1558390383\testng-customsuite.xml</span>
+                    <span>C:\Users\asmit\AppData\Local\Temp\testng-eclipse--1436359797\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>2 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="productTests.AddProductToCartTestASSERT_SM" class="method navigator-link" hash-for-method="tc_001_AddProductToCartTest">tc_001_AddProductToCartTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="productTests.AddProductToCartTestASSERT_SM" class="method navigator-link" hash-for-method="tc_002_sampleTest">tc_002_sampleTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="practice.SampleJDBC" class="method navigator-link" hash-for-method="jdbcExecuteQuery">jdbcExecuteQuery</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">productTests.AddProductToCartTestASSERT_SM</span>
+              <span class="class-name">practice.SampleJDBC</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_001_AddProductToCartTest">
-                  </a> <!-- tc_001_AddProductToCartTest -->
-                  <span class="method-name">tc_001_AddProductToCartTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_002_sampleTest">
-                  </a> <!-- tc_002_sampleTest -->
-                  <span class="method-name">tc_002_sampleTest</span>
+                  <a name="jdbcExecuteQuery">
+                  </a> <!-- jdbcExecuteQuery -->
+                  <span class="method-name">jdbcExecuteQuery</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\asmit\AppData\Local\Temp\testng-eclipse-1558390383\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\asmit\AppData\Local\Temp\testng-eclipse--1436359797\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;productTests.AddProductToCartTestASSERT_SM&quot;/&gt;
+      &lt;class name=&quot;practice.SampleJDBC&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;jdbcExecuteQuery&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- practice.SampleJDBC --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -182,22 +174,6 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">RegressionSuite</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">tc_002_sampleTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">SmokeSuite</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">tc_001_AddProductToCartTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -214,20 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc_001_AddProductToCartTest')
-data.setCell(0, 2, 'productTests.AddProductToCartTestASSERT_SM')
-data.setCell(0, 3, 5533);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc_002_sampleTest')
-data.setCell(1, 2, 'productTests.AddProductToCartTestASSERT_SM')
-data.setCell(1, 3, 2);
+data.setCell(0, 1, 'jdbcExecuteQuery')
+data.setCell(0, 2, 'practice.SampleJDBC')
+data.setCell(0, 3, 379);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 379 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,9 +214,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">practice.SampleJDBC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">jdbcExecuteUpdate</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -253,47 +232,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">productTests.AddProductToCartTestASSERT_SM</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">bsConfig</span>
+              <div class="chronological-class-name">practice.SampleJDBC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">jdbcExecuteQuery</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-class before">
-                <span class="method-name">bcConfig</span>
-                <span class="method-start">23 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">bmConfig</span>
-                <span class="method-start">26431 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_001_AddProductToCartTest</span>
-                <span class="method-start">27949 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amConfig</span>
-                <span class="method-start">33484 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">bmConfig</span>
-                <span class="method-start">33687 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_002_sampleTest</span>
-                <span class="method-start">33944 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amConfig</span>
-                <span class="method-start">33949 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">acConfig</span>
-                <span class="method-start">34296 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-suite after">
-                <span class="method-name">asConfig</span>
-                <span class="method-start">35800 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
